@@ -33,13 +33,13 @@ bun install
 
 ## Development
 
-Use `bun watch` to actively rebuild modified files while developing the resource.
+Use `bun run watch` to actively rebuild modified files while developing the resource.
 
-During web development, use `bun web:dev` to start vite's webserver and watch for changes.
+During web development, use `bun run web:dev` to start vite's webserver and watch for changes.
 
 ## Build
 
-Use `bun build` to build all project files in production mode.
+Use `bun run build` to build all project files in production mode.
 
 To build and create GitHub releases, tag your commit (e.g. `v1.0.0`) and push it.
 
